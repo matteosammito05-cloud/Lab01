@@ -6,10 +6,10 @@ def factorial(n):
 
 def binomial(f1,f2,nk):
     return f1/(f2*nk)
-n1=int(input("Primo numero: "))
-n2=int(input("Secondo numero: "))
 
 def main():
+    n1=int(input("Primo numero: "))
+    n2=int(input("Secondo numero: "))
     if n1==-1 and n2==-1:
         print("Exit.")
     else:
